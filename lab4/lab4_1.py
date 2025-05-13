@@ -45,7 +45,7 @@ print(H_count)
 print('Моя задача')
 balls_count = 0
 for i in range (0, 100):
-    new_ball = random.choice(['green', 'green', 'green', 'red', 'red', 'red', 'red', 'blue', 'blue', 'yellow'])
-    if new_ball == 'green' or new_ball == 'red':
+    new_ball = random.choice(['green', 'green', 'green', 'red', 'yellow' , 'red', 'red', 'red', 'blue', 'blue'])
+    if new_ball == 'yellow' or new_ball == 'red':
         balls_count += 1
 print(balls_count)
